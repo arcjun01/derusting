@@ -14,3 +14,6 @@ ListPractice
 StringPractice
 - How to find the value of character at index by using chartAt(): "https://stackoverflow.com/questions/11229986/get-string-character-by-index"
 - Joining all the strings by using join(): https://www.w3schools.com/java/ref_string_join.asp 
+
+SetPractice
+- remove(): https://www.w3schools.com/java/java_hashset.asp
