@@ -7,7 +7,10 @@ ListPractice
 - List<String> list = new ArrayList<>(); I always get confused how to set this up
 - get() function access the element
 - set() function that replaces a word in the list
-- contains() https://www.geeksforgeeks.org/list-contains-method-in-java-with-examples/?ref=header_outind 
-- size() https://stackoverflow.com/questions/4438710/using-collection-size-in-for-loop-comparison 
-- Collections.sort() https://www.geeksforgeeks.org/collections-sort-java-examples/?ref=header_outind 
+- contains(): https://www.geeksforgeeks.org/list-contains-method-in-java-with-examples/?ref=header_outind 
+- size(): https://stackoverflow.com/questions/4438710/using-collection-size-in-for-loop-comparison 
+- Collections.sort(): https://www.geeksforgeeks.org/collections-sort-java-examples/?ref=header_outind 
 
+StringPractice
+- How to find the value of character at index by using chartAt(): "https://stackoverflow.com/questions/11229986/get-string-character-by-index"
+- Joining all the strings by using join(): https://www.w3schools.com/java/ref_string_join.asp 
