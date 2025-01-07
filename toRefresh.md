@@ -17,3 +17,6 @@ StringPractice
 
 SetPractice
 - remove(): https://www.w3schools.com/java/java_hashset.asp
+
+MapPractice
+- A good review for different methods - keySet, values, keys, boolean, and how to loop Map: https://www.w3schools.com/java/java_hashmap.asp
