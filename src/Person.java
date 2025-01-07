@@ -1,18 +1,25 @@
 /*
  * In this file you will follow the comments' instructions to complete
- * the Person class.
+ * the Person class. 
  */
 
 public class Person {
   // Declare a public String instance variable for the name of the person
   // Declare a private int instance variable for the age of the person
-
+  public String name;
+  private int age;
 
   // Create a constructor that takes the name and age of the person
   // and assigns it to the instance variables
-
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 
   // Create a toString method that gives the name and age of the person
+  public String toString() {
+    return "Name: " + name + ", Age: " + age;
+  }
 
 
   // Implement the below public instance method "birthYear"
@@ -20,7 +27,7 @@ public class Person {
   /**
    * birthYear returns the year the person was born.
    * 
-   * The birth year is calculated by subtracting the person's age from currentYear
+   * The birth year is calculated by subtracting  the person's age from currentYear
    * that's passed in as an int. It assumes that the person's birthday has already
    * passed this year.
    * 
@@ -28,25 +35,35 @@ public class Person {
    * @return The year the person was born
    */
   // (create the instance method here)
+  public int birthYear(int currentYear) {
+    return currentYear - age;
+  }
 
 
   public static void main(String[] args) {
     // Create an instance of Person
-
+    Person person1 = new Person("Bud", 13);
     // Create another instance of Person with a different name and age and
     // assign it to a different variable
+    Person person2 = new Person("Nelie", 45);
 
     // Print the first person
+    System.out.println(person1);
 
     // Print the second person
+    System.out.println(person2);
 
     // Get the name of the first person and store it in a local variable
+    String firstName = person1.name;
 
     // Using the birthYear method, get the birth year of the first person
     // and store it in a local variable. Input the actual current year (e.g. 2025)
     // as the argument.
+    int currentYear = 2025;
+    int birthYear = person1.birthYear(currentYear);
 
     // In a separate statement, print the local variable holding the birth year.
+    System.out.println(firstName + "'s birth year is " + birthYear + ".");
 
     /**
      * Terminology!

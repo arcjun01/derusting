@@ -20,3 +20,6 @@ SetPractice
 
 MapPractice
 - A good review for different methods - keySet, values, keys, boolean, and how to loop Map: https://www.w3schools.com/java/java_hashmap.asp
+
+Person
+- Almost forgot how to manually do this, there is also a shortcut that was shown in SDEV 217(?) before. Here is a good review: https://www.youtube.com/watch?v=VhErIOUHwuw
